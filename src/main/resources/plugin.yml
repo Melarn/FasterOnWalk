@@ -3,5 +3,5 @@ version: '${project.version}'
 main: me.melarn.fasteronblock.FasterOnBlock
 api-version: 1.19
 author: Melarn
-description: Run faster on dirt path.
+description: Run faster on dirt path with no shown effect.
 website: docs.projectventure.tk
