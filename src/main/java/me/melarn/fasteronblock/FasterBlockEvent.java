@@ -16,7 +16,7 @@ public class FasterBlockEvent implements Listener {
         Player player = event.getPlayer();
         if (player.getLocation().getBlock().getType().equals(Material.DIRT_PATH)){
 //            player.sendMessage("you stood on block");
-            player.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 25, (int) 0.3f).withParticles(false));
+            player.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 25, (int) 0.3f).withParticles(false).withIcon(false));
         }
     }
 }
